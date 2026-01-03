@@ -1,0 +1,4 @@
+User-agent: *
+Disallow:
+
+Sitemap: https://filipvrba-cv.vercel.app/sitemap.xml
