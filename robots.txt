@@ -1,0 +1,4 @@
+User-agent: *
+Disallow:
+
+Sitemap: https://filipos800.github.io/cv/sitemap.xml
