@@ -1,7 +1,0 @@
-#!/bin/bash
-
-rjsv -t -w -s src/rb -o src/js &
-bun run dev
-
-trap - SIGINT
-kill $!
