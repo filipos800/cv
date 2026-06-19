@@ -132,14 +132,11 @@
             <div class="project-tag">SYSTEMS / COMPILER</div>
             <div class="project-title">Mustela Engine</div>
             <p>
-                Static Site Generator napsaný ve V, navržený pro extrémní propustnost.
-                Zpracuje <span class="highlight">~9 400 stránek/s</span> díky zero-copy pipeline a recyklaci parser/lexer stavu.
-                Místo tradičního build flow drží minimální alokace a eliminuje zbytečné parsing cykly.
-                Výsledek: okamžitý rebuild (HMR) i u větších projektů bez degradace výkonu.
+                Static Site Generator napsaný ve V s vlastním DSL, parserem a zero-copy rendering pipeline. Navržený jako deterministický systém bez externích závislostí, kde celý build proces – od zpracování obsahu po generování HTML – běží pod jednou architekturou. Výsledkem je malý binární nástroj, rychlé rebuildy a plná kontrola nad celým publikačním řetězcem.
             </p>
             <a href="https://mustela.vercel.app/" target="_blank">view_hub</a>
             <span>/</span>
-            <a href="https://github.com/filipos800/mustela-web" target="_blank">view_source</a>
+            <a href="https://github.com/filipos800/mustela" target="_blank">view_source</a>
         </div>
 
         <div class="project">
